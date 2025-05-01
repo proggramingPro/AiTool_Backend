@@ -29,7 +29,7 @@ app.post('/api/generate', async (req, res) => {
   }
 
   try {
-    const response = await axios.post('http://localhost:8000/generate', { prompt }, {
+    const response = await axios.post('united-cialis.gl.at.ply.gg:4102/generate', { prompt }, {
       headers: { "Content-Type": "application/json" },
       timeout: 60000,
     });
