@@ -29,7 +29,7 @@ app.post('/api/generate', async (req, res) => {
   }
 
   try {
-    const response = await axios.post('united-cialis.gl.at.ply.gg:4102/generate', { prompt }, {
+    const response = await axios.post('https://8e31-2409-40c2-6045-2ecf-41c9-746d-abe3-78b3.ngrok-free.app/generate', { prompt }, {
       headers: { "Content-Type": "application/json" },
       timeout: 60000,
     });
